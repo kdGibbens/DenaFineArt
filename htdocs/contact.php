@@ -21,7 +21,7 @@
   </head>
   <body>
     <div id="wrap">
-    <gcse:search></gcse:search>
+   
   	<nav class="navbar navbar-inverse ">
         <div class="container">
           <!--Hamburger Menu in mobile-->
@@ -152,7 +152,7 @@
       <div id="footer">
         <div class="container">
             <a href="../index.html">Dena Thomas-Aoussoa Fine Art &copy; 2015</a>
-        
+            <gcse:searchbox-only></gcse:searchbox-only>
             <div class="socialMedia">
 
             </div>

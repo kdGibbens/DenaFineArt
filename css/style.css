@@ -245,6 +245,11 @@ form legend {
 	padding: 0 .5em 0 0;
 }
 
+/*Search bar*/
+.gsc-control-searchbox-only  {
+	width: 25%;
+}
+
 /* Large devices (large desktops, 1200px and up) */
 
 
