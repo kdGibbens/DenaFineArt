@@ -1,0 +1,311 @@
+/*IMPORT UTF
+-------------------------------------------------- */
+@charset "UTF-8";
+/* Main Style
+-------------------------------------------------- */
+body, html {
+	width: 100%;
+	height: 100%;
+	background: #E0E8EB;
+	font-family:'Nunito', helvetica, sans-serif;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+/* Nav Bar
+-------------------------------------------------- */
+.navbar {
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+	padding: 1em;
+	background: #3a4e71;
+	border-width: 0 .5em .5em .5em;
+	border-image: url('../img/postcard.jpg') 0 0 20 0 round;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #eee;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background: #D06396;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #E0E8EB;
+    color: #D06396;
+    border-radius: .5em;
+}
+
+.navbar-brand {
+	padding: 0;
+	height: 2.5em;
+
+}
+
+.navbar-brand p {
+	width: 12em;
+	color: #eee;
+}
+
+/* JUMBOTRON
+-------------------------------------------------- */
+.jumbotron {
+	margin-bottom: 1em;
+	background: url('../img/postCard.jpg') no-repeat;
+	background-size: 100%;
+	background-color: #3a4e71;
+	color: #eee;
+}
+
+.jumboImg {
+	background: url('../img/dena.jpg');
+	background-size: cover;
+	margin: 0 auto;
+	width: 15em;
+	height: 15em;
+	border-radius: 50%;
+	border: .5em solid #3a4e71;
+}
+
+.jumbtron-page {
+	background-image: none;
+}
+
+/* Box Navigation Home page
+-------------------------------------------------- */
+.center {
+	margin: 0 auto;
+}
+.box {
+	background: #2c436d;
+	margin-right: 2%;
+	margin-left:  2%;
+	min-height: 15em;
+	margin-bottom: 5%;
+	border-radius: .5em;
+	text-decoration: none;
+	color: #eee;
+	text-align: center;
+	transition: border .5s;
+}
+
+.box:active {
+	border: .5em solid #D06396;
+	text-decoration: underline;
+}
+
+#box1 {
+	background: radial-gradient(ellipse at center, rgba(208,99,150,0) 0%,rgba(55,78,112,0) 100%),url('../img/home/box1_bw.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#box1:active {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,.5) 100%), url('../img/home/box1_bw.jpg');
+}
+
+
+#box2 {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0) 0%,rgba(55,78,112,0) 100%),url('../img/home/box2_bw.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#box2:active {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,.5) 100%),url('../img/home/box2_bw.jpg');
+}
+
+#box3 {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0) 0%,rgba(55,78,112,0) 100%), url('../img//home/box3_bw.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#box3:active {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,0.5) 100%),url('../img//home/box3_bw.jpg');
+}
+
+
+
+#box4 {
+	background: radial-gradient(ellipse at center, rgba(208,99,150,0) 0%,rgba(55,78,112,0) 100%),url('../img/home/box4_bw.jpg');
+	background-size: cover;
+
+}
+
+#box4:active {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,0.5) 100%),url('../img/home/box4_bw.jpg');
+}
+
+.box:hover {
+	border: .5em solid #D06396;
+	text-decoration: underline;
+}
+#box1:hover {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,0.5) 100%),url('../img/home/box1_bw.jpg');
+}
+#box2:hover {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,.5) 100%),url('../img/home/box2_bw.jpg');
+}
+#box3:hover {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,.5) 100%), url('../img//home/box3_bw.jpg');
+}
+#box4:hover {
+	background-image: radial-gradient(ellipse at center, rgba(208,99,150,0.5) 0%,rgba(55,78,112,0.5) 100%),url('../img/home/box4_bw.jpg');
+}
+
+/*Footer
+-------------------------------------------------- */
+#footer {
+	background: #3a4e71;
+	height: 60px;
+	border-width: 0.5em .5em .5em .5em;
+	border-image: url('../img/postcard.jpg') 25 0 0 0 round;
+}
+
+#footer a {
+	color: #eee;
+}
+
+
+ /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+    margin-bottom: 0;
+	padding: 1.5em;
+	background: #3a4e71;
+	border-radius: .5em;
+}
+/* Reposition the controls slightly */
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+
+.carousel.right {
+	height: auto;
+}
+
+.well {
+	background: #3a4e71;
+	border: 0;
+}
+
+.thumbnail {
+	width: 100%;
+	height: 100%;
+	background:#D06396;
+	border: 0;
+}
+
+.thumbnail img {
+	width: 250px;
+	height: auto;
+}
+
+ /* Form
+-------------------------------------------------- */
+
+form legend {
+	text-align: center;
+	color: #eee;
+}
+
+.resume {
+	border-radius: .5em;
+}
+
+.resume a {
+	font-size: 1.5em;
+	color: #eee;
+	padding: 0 .5em 0 0;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+
+/* Media Queries
+-------------------------------------------------- */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.jumboImg {
+	margin: 0 0;
+	}
+
+	.nav {
+		font-size: .8em;
+	}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.carousel-inner > .item > img {
+ 		min-width: 100%;
+	}
+	.nav {
+		font-size: 1em;
+	}
+	
+ }
+
+@media (min-width: 1200px) { 
+	.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #E0E8EB;
+    color: #D06396;
+    border-radius: .5em;
+	}
+	.box {
+	width: 23%;
+	margin-right: 1%;
+	margin-left:  1%;
+	margin-bottom: 3.2em;
+	}
+
+	#box2, #box4 {
+		background-position: 0 0;
+	}
+	.resume a:hover {
+	color: #D06396;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
