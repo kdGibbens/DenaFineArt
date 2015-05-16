@@ -152,7 +152,7 @@
       <div id="footer">
         <div class="container">
             <a href="../index.html">Dena Thomas-Aoussoa Fine Art &copy; 2015</a>
-            <gcse:searchbox-only></gcse:searchbox-only>
+          
             <div class="socialMedia">
 
             </div>
@@ -174,18 +174,5 @@
         ga('send', 'pageview');
      </script>
 
-     <!--Google Search Engine API -->
-    <script>
-      (function() {
-        var cx = '011492466570775094298:dephrzvyuq8';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-            '//cse.google.com/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>
   </body>
 </html>
