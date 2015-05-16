@@ -265,6 +265,11 @@ form legend {
 	.nav {
 		font-size: .8em;
 	}
+
+	.modal-content {
+		margin: 0 auto;
+		width: 65%;
+	}
  }
 
 /* Medium devices (desktops, 992px and up) */
