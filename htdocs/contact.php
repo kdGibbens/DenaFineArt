@@ -76,7 +76,7 @@
                 $subject = "Not provided";
               }
 
-              $to = 'gibbenskd@gmail.com';
+              $to = 'denathomas@gmail.com';
               $headers = 'MIME-Version: 1.0' . "\r\n";
               $headers .= 'Content-type: text/html; charset: utf8' . "\r\n";
               $headers .= 'From: Email from Dena Thomas-Aouassoua Fine Art <' . $email . ">"  . "\r\n";
@@ -99,7 +99,7 @@
           <!--Aside begins-->
       <div class="jumbotron jumbtron-page col-md-5 resume">
         <p>Thank you for visiting my site. I am a visual artist who works mostly in sculpture and found object art. Originally from Hays, Kansas I served in the U.S. Peace Corps in Morocco. I recived my M.F.A from the University of Illinois Carbondale in 2014 and I currently reside in New Mexico. If you are interested in contacting me about shows or the art work I would love to hear from you.
-         Special thanks to Erin Taylor for the photographs and Kelly Gibbens for helping build this website.</p>
+         Special thanks to Erin Taylor for the photographs.</p>
         <a href="#">
           <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>
           Download my resume.
