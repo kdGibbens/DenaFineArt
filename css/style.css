@@ -4,15 +4,16 @@
 /* Main Style
 -------------------------------------------------- */
 body, html {
-	width: 100%;
-	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
 	background: #E0E8EB;
 	font-family:'Nunito', helvetica, sans-serif;
 }
 
+
 #wrap {
-	min-height: 100%;
 	height: auto;
+	width: auto;
 	margin: 0 auto -60px;
 	padding: 0 0 60px;
 }
@@ -63,7 +64,6 @@ body, html {
 /* JUMBOTRON
 -------------------------------------------------- */
 .jumbotron {
-	margin-bottom: 1em;
 	background: url('../img/postCard.jpg') no-repeat;
 	background-size: 100%;
 	background-color: #3a4e71;
@@ -171,7 +171,9 @@ body, html {
 -------------------------------------------------- */
 #footer {
 	background: #3a4e71;
-	height: 60px;
+	height: 6em;
+	width: 100%;
+	margin-top: 1.5em;
 	border-width: 0.5em .5em .5em .5em;
 	border-image: url('../img/postcard.jpg') 25 0 0 0 round;
 }
@@ -245,10 +247,6 @@ form legend {
 	padding: 0 .5em 0 0;
 }
 
-/*Search bar*/
-.gsc-control-searchbox-only  {
-	width: 25%;
-}
 
 /* Large devices (large desktops, 1200px and up) */
 
@@ -279,6 +277,10 @@ form legend {
 	}
 	.nav {
 		font-size: 1em;
+	}
+
+	footer{
+		margin-top: 5em;
 	}
 	
  }
