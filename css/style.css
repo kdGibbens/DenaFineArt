@@ -32,7 +32,7 @@ body, html {
 	padding: 1em;
 	background: #3a4e71;
 	border-width: 0 .5em .5em .5em;
-	border-image: url('../img/postcard.jpg') 0 0 20 0 round;
+	border-image: url('../img/postCard.jpg') 0 0 20 0 round;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -175,7 +175,7 @@ body, html {
 	width: 100%;
 	margin-top: 1.5em;
 	border-width: 0.5em .5em .5em .5em;
-	border-image: url('../img/postcard.jpg') 25 0 0 0 round;
+	border-image: url('../img/postCard.jpg') 25 0 0 0 round;
 }
 
 #footer a {

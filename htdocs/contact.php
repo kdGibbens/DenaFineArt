@@ -33,7 +33,7 @@
             </button>
 
             <!--Dena LOGO-->
-            <a class="navbar-brand" href="index.html"><p>Dena Thomas-Aouassou Sculpture &amp; Fine Art</p></a>
+            <a class="navbar-brand" href="../index.html"><p>Dena Thomas-Aouassou Sculpture &amp; Fine Art</p></a>
           </div>
 
           <!--Full Navbar-->
